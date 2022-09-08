@@ -10,7 +10,7 @@ header  {
 h1  {
     margin: 0px;
     line-height: 100px;
-    padding-left: 15px;
+    padding-left: 120px;
     white-space: nowrap;
 }
 
@@ -24,15 +24,23 @@ h1  {
     justify-content: space-evenly;
 }
 
-.lsidemenu-flexbox   {
+.lsidemenu-flexbox  ul {
+    list-style: none;
+    margin-left: -40px;
+}
 
+#leftnavmenu    {
+    position: sticky;
+    top: 10px;
 }
 
 .rsidemenu-flexbox  {
+    visibility: hidden;
 }
 
 .lsidemenu-flexbox, .rsidemenu-flexbox {
     padding: 5px;
+    list-style: none;    
 }
 
 .flexbox-item   {
@@ -54,14 +62,64 @@ img   {
 
 
 
-@media screen and (max-width: 600px) {
+/* navmenu css*/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    margin-left: -10px;
+    margin-right: -10px
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+    background-color: #333;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    width: 17px;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+/* navmenu css end*/
+
+
+
+
+
+@media screen and (max-width: 960px) {
     .rsidemenu-flexbox p {
         display: none;
     }
 }
 
-@media screen and (max-width:450px) {
-    .lsidemenu-flexbox p {
+@media screen and (max-width:600px) {
+    .lsidemenu-flexbox ul {
+        display: none;
+    }    
+}
+
+@media screen and (min-width: 601px) {
+    .topnav {
         display: none;
     }    
 }
