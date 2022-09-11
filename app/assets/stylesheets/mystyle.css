@@ -3,10 +3,18 @@ body    {
 }
 
 header  {
-    background: firebrick;
+    background: rgb(5, 146, 36);
     height: 100px;
 }
 
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(5, 146, 36);
+    text-align: center;
+}
 h1  {
     margin: 0px;
     line-height: 100px;
@@ -29,6 +37,10 @@ h1  {
     margin-left: -40px;
 }
 
+#home ul  {
+    visibility: hidden;
+}
+
 #leftnavmenu    {
     position: sticky;
     top: 10px;
@@ -43,10 +55,23 @@ h1  {
     list-style: none;    
 }
 
+.row-dotted-line {
+    border-style: solid none none none;
+    border-width: 2px;
+    border-color: #3339;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 80%;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
 .flexbox-item   {
     display: flex;
     flex-direction: column;
+    width: 957px;
 }
+
 
 img   {
     height: auto;
@@ -59,7 +84,10 @@ img   {
     min-width: 350px;
 }
 
-
+#home-image    {
+    max-width: 1200px;
+    height: auto;
+}
 
 
 /* navmenu css*/
@@ -116,6 +144,9 @@ img   {
     .lsidemenu-flexbox ul {
         display: none;
     }    
+    h1 {
+        padding-left: 5px;
+    }
 }
 
 @media screen and (min-width: 601px) {

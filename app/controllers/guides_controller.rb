@@ -4,4 +4,7 @@ class GuidesController < ApplicationController
 
   def display_settings
   end
+
+  def adding_adblock
+  end
 end
