@@ -1,12 +1,8 @@
 <% content_for :title do  %>
-    Display settings | Scuffed Guides
+    Display settings | 
 <%end%>
 
-<div>
-    <header>
-        <h1>Display Settings</h1>
-    </header>
-</div>
+<%= render "header"%>
 
 
 <div class="flexbox-content">
@@ -21,9 +17,12 @@
 
     <div class="flexbox-item">
 
-        <%=render "navmenu"%>
 
-        <h2>How to set your monitor to it's highest refresh rate.</h2>
+        <h2>Display Settings</h2>
+        <p>In this guide I'm gonna go over how to set your monitor to it's highest refresh rate.</p>
+        <p>At the bottom of the page there is a short explanation on what it does and why you would want to.</p>
+        <div class="row-dotted-line"></div>
+
         <h3>1. Get to your settings</h3>
         
         <div class="ul-box">
@@ -71,6 +70,21 @@
             That's it, your monitor is now set to its highest refresh rate.
         </p>
 
+        
+        <h4>Summary</h4>
+            <p>
+                Refresh rate refers to how many times a monitor updates per second (i.e a monitor set to 60hz will refresh it's output 60 times every second even if the following image is the same). 
+                Therefore, a higher refresh rate leads to more responsive gameplay and a smoother feel overall.
+            </p>
+
+        <p>
+            My settings and relative information.
+            <ul>
+                <li>Monitor - asus VG248QE</li>
+                <li>Refresh rate - 144hz</li>
+            </ul>
+        </p>
+
     </div>
 
     <div class="rsidemenu-flexbox">
@@ -83,5 +97,5 @@
 </div>
 
 <div class="footer">
-    <p>logo</p>
+    <p>missing</p>
 </div>

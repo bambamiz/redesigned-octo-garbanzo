@@ -2,11 +2,7 @@
     Home | Scuffed Guides
 <%end%>
 
-<div>
-    <header>
-        <h1>GreeNerd guides</h1>
-    </header>
-</div>
+<%= render "header"%>
 
 <div class="flexbox-content">
 
@@ -25,15 +21,24 @@
             <h3>General changes</h3>
             <ul>
                 <li>
-                    <p>How to set your monitor to it's highest refresh rate.</p><a href="/display_settings/"> Display Settings - Windows 10</a>
+                    <p>How to set your monitor to it's highest refresh rate.</p>
+                        <ul>
+                            <li> <%= link_to "Display Settings", "/display_settings", class: "hi" %> Windows 10</li>
+                        </ul>
                 </li>
 
                 <li>
-                    <p>How to disable Xbox gamebar.</p><a href="/disabling_gamebar"> Disabling Gamebar</a>
+                    <p>How to disable Xbox gamebar.</p>
+                        <ul>
+                            <li> <%= link_to "Disabling Gamebar", "/disabling_gamebar" %> </li>
+                        </ul>
                 </li>
 
                 <li>
-                    <p>How to set up adblock on your favorite browser.</p><a href="/adding_adblock">Adding adblock</a>
+                    <p>How to set up adblock on your favorite browser.</p>
+                        <ul>
+                            <li> <%= link_to "Adding adblock", "/adding_adblock_chrome" %> Chrome</li>
+                        </ul>
                 </li>
             </ul>
     </div>
@@ -45,4 +50,8 @@
             link link link<br>
     </div>
 
+</div>
+
+<div class="footer">
+    <p>missing</p>
 </div>

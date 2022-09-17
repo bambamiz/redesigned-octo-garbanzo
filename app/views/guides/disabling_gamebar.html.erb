@@ -1,7 +1,84 @@
 <% content_for :title do  %>
-    Display settings | Scuffed Guides
+    Display settings | 
 <%end%>
 
-<div class="flexbox-item flexbox-item-header">
-    <h1>Disabling Xbox gamebar</h1>
+<%= render "header"%>
+
+<div class="flexbox-content">
+    <div class="lsidemenu-flexbox">
+            <ul id="leftnavmenu">
+                <li>block that has links</li>
+                <li>home link</li>
+                <li>link link link</li>
+                <li>link link link</li>
+            </ul>
+    </div>
+
+    <div class="flexbox-item">
+
+
+        <h2>Disabling Xbox Game Bar</h2>
+        <p>In this guide I'm gonna go over how to disable the game bar</p>
+        <p>At the bottom of the page there is a short explanation on what it is and why you should disable it.</p>
+        <div class="row-dotted-line"></div>
+
+        <h3>1. Get to your settings</h3>
+        
+        <div class="ul-box">
+            <ul>
+                <li>Click your WIN key, it will pull up your start menu.</li>
+                <li>On the start menu you will see a cog/gear icon click it to get to the settings.</li>
+                <li>When you're in the settings menu click on the gaming section.</li>
+            </ul>
+        </div>
+
+        <div class="img-flexbox">
+            <%= image_tag "GBsettings", class: "flexbox-ite"%>
+        </div>
+
+        <div class="row-dotted-line"></div>
+
+        <h3>2. Turning off Xbox game bar</h3>
+        <ul>
+            <li>On the left side-menu make sure you're on the Xbox Game Bar section.</li>
+            <li>On the right side you'll see a on/off switch. You want to turn it off.</li>
+        </ul>
+
+        <div class="img-flexbox">
+            <%= image_tag "GBsettings2.png", class: "flexbox-ite"%>
+        </div>
+
+        <div class="row-dotted-line"></div>
+
+        <p>
+            You're all set. Game bar is now off.
+        </p>
+
+        <h4>Summary</h4>
+        <p>
+            Game bar is a tool by Microsoft used to save videos, screenshots and lets you access some xbox social features. 
+            I recommend turning it off becuase It causes performance issues with some games.
+        </p>
+
+        <p>
+            My settings and relative information.
+            <ul>
+                <li>Xbox Game Bar is off</li>
+                <li>To record I use OBS</li>
+            </ul>
+        </p>
+
+    </div>
+
+    <div class="rsidemenu-flexbox">
+        <p>block that has links<br>
+        home link<br>
+        link link link<br>
+        link link link<br>
+    </div>
+
+</div>
+
+<div class="footer">
+    <p>missing</p>
 </div>
