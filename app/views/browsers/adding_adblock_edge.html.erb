@@ -1,0 +1,97 @@
+<% content_for :title do  %>
+    Adding adblock | Scuffed Guides
+<%end%>
+
+<%= render "header"%>
+
+<div class="flexbox-content">
+    <div class="lsidemenu-flexbox">
+            <ul id="leftnavmenu">
+                <li>block that has links</li>
+                <li>home link</li>
+                <li>link link link</li>
+                <li>link link link</li>
+            </ul>
+    </div>
+
+    <div class="flexbox-item">
+
+
+        <h2>Adding adblock</h2>
+        <p>In this guide I'm gonna go over how to add adblock</p>
+        <p>At the bottom of the page there is a short explanation on why I recommend adding adblock.</p>
+        <p><strong>note:</strong> I'm not gonna get into the gray area surrounding adblock, but I will mention it is frown upon by some people. 
+        With that out of the way, let's get started.</p>
+        <div class="row-dotted-line"></div>
+
+        <h3>1. Get to Edge Add-ons</h3>
+        
+        <div class="ul-box">
+            <ul>
+                <li>Launch the Edge browser.</li> 
+                <li>Press alt+f to pull up a sidemenu. You'll see an option that says extensions, click it.</li>
+            </ul>
+        </div>
+
+        <div class="img-flexbox">
+            <%= image_tag "UOsettingsedge1", class: "flexbox-ite"%>
+        </div>
+
+        <h3>1. (continued)</h3>
+
+        <div class="ul-box">
+            <ul>
+                <li>Clicking extensions will bring up another sub-menu, on it you'll see a link that leads you to Edge Add-ons</li> 
+            </ul>
+        </div>
+
+        <div class="img-flexbox">
+            <%= image_tag "UOsettingsedge2", class: "flexbox-ite"%>
+        </div>
+
+        <div class="row-dotted-line"></div>
+
+        <h3>2. Selecting the correct extension and adding it to Edge</h3>
+        <ul>
+            <li>You'll now be on the Edge Add-on page. On the the top of the page you'll see a search bar, in it type uBlock&nbspOrigin.</li>
+            <li>You'll get a list of mixed results, make sure to select the one that matches the spelling, 
+            emblem (red shield with ub in it) and name of the developer exactly as in the picture below.</li>
+            <li>Now that you've selected the correct one click the blue add button on the extension.</li>
+        </ul>
+
+        <div class="img-flexbox">
+            <%= image_tag "UOsettingsedge3", class: "flexbox-ite"%>
+        </div>
+
+        <div class="row-dotted-line"></div>
+
+        <p>
+            That's it, you've added adblock to Edge.
+        </p>
+
+        <h4>Summary</h4>
+            <p>Adblock is used to block ads on a website. uBlock Origin by defualt does a good job at blocking ads, despite some ads still getting through. 
+            It can affect the functionality on some websites by blocking needed information so I do recommend getting familiar with how to disable it.<br><br>
+            I recommend adblock because it makes browsing safer. Often times when you search without adblock the first link will be a ad link, 
+            and sometimes ad links can be malicious.
+            </p>
+
+        <p>
+            My settings and relative information.
+            <ul>
+                <li>uBlock Origin with defualt settings.</li>
+            </ul>
+        </p>
+
+    </div>
+
+    <div class="rsidemenu-flexbox">
+        <p>block that has links<br>
+        home link<br>
+        link link link<br>
+        link link link<br>
+    </div>
+
+</div>
+
+<%= render "footer"%>

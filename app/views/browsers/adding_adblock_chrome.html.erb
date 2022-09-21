@@ -24,13 +24,14 @@
         With that out of the way, let's get started.</p>
         <div class="row-dotted-line"></div>
 
-        <h3>1. Get to the chrome web store</h3>
+        <h3>1. Get to the Chrome web store</h3>
         
         <div class="ul-box">
             <ul>
-                <li>Launch the chrome browser, if you're viewing this website through chrome press ctrl+t to open a new tab.</li>
+                <li>Launch the Chrome browser.</li> 
+                <li>Press ctrl+t to open a new tab.</li>
                 <li>On the new tab there will be an extensions shortcut you'll want to click it.</li>
-                <li><strong>If</strong> your tab doesn't include the extensions shortcut <a href>Click here</a> for alternative way to get to extensions.</li>
+                <li><strong>If</strong> your tab doesn't include the extensions shortcut <%=link_to "click here", "adblock_chrome_alt"%> for an alternative way to get to extensions.</li>
             </ul>
         </div>
 
@@ -42,11 +43,8 @@
 
         <h3>2. Selecting the correct extension</h3>
         <ul>
-            <li>You should now be on the home page of the chrome web strore. On the the top left you'll see a search bar, in it type uBlock Origin. 
-            You'll get a list of mixed results, make sure to select the one with the name spelled exactly as uBlock Origin and the emblem matches the one in the picture below.</li>
-            <li>Now that you've selected the correct extension, your current page should look similar to the one in the picture below. <strong>It is important that the extension is offered by Raymond Hill</strong>. 
-            You'll verify that by looking under Additional information on the page, I added paranthesis around it on the picture below.</li>
-            <li>All that's left to do is click the blue add to chrome button on top right.</li>
+            <li>You'll now be on the chrome web strore. On the the top left you'll see a search bar, in it type uBlock&nbspOrigin.</li>
+            <li>You'll get a list of mixed results, make sure to select the one that matches the name and emblem (red shield with ub in it) exactly as in the picture below.</li>
         </ul>
 
         <div class="img-flexbox">
@@ -55,8 +53,21 @@
 
         <div class="row-dotted-line"></div>
 
+        <h3>3. Add to Chrome</h3>
+        <ul>
+            <li>Now that you've selected the correct extension, your current page should look similar to the one in the picture below. <strong>It is important that the extension is offered by Raymond Hill</strong>. 
+            You'll verify that by looking under Additional information on the page, I added paranthesis around it on the picture below.</li>
+            <li>All that's left to do is click the blue add to chrome button on top right.</li>
+        </ul>
+
+        <div class="img-flexbox">
+            <%= image_tag "UOsettingschrome3", class: "flexbox-ite"%>
+        </div>
+
+        <div class="row-dotted-line"></div>
+
         <p>
-            That's it, you've now added adblock to chrome.
+            That's it, you've added adblock to Chrome.
         </p>
 
         <h4>Summary</h4>
@@ -84,6 +95,4 @@
 
 </div>
 
-<div class="footer">
-    <p>missing</p>
-</div>
+<%= render "footer"%>

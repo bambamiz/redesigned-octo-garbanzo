@@ -7,40 +7,51 @@
 <div class="flexbox-content">
 
     <div class="rsidemenu-flexbox">
-            <p>block that has links<br>
+        <p>block that has links<br>
             home link<br>
             link link link<br>
             link link link<br>
+        </p>
     </div>
 
     <div class="flexbox-item">
-            <div id="home-image" class="img-flexbox">
-                <%= image_tag "TBD.png"%>
-            </div>
+        <div id="home-image" class="img-flexbox">
+            <%= image_tag "TBD.png"%>
+        </div>
 
-            <h3>General changes</h3>
-            <ul>
-                <li>
-                    <p>How to set your monitor to it's highest refresh rate.</p>
-                        <ul>
-                            <li> <%= link_to "Display Settings", "/display_settings", class: "hi" %> Windows 10</li>
-                        </ul>
-                </li>
+        <h2>General changes</h2>
+        <ul>
+            <li>
+                <p>How to set your monitor to it's highest refresh rate.</p>
+                    <ul>
+                        <li> <%= link_to "Display Settings", "/display_settings", class: "hi" %> Windows 10</li>
+                    </ul>
+            </li>
 
-                <li>
-                    <p>How to disable Xbox gamebar.</p>
-                        <ul>
-                            <li> <%= link_to "Disabling Gamebar", "/disabling_gamebar" %> </li>
-                        </ul>
-                </li>
+            <li>
+                <p>How to disable Xbox gamebar.</p>
+                    <ul>
+                        <li> <%= link_to "Disabling Gamebar", "/disabling_gamebar" %> </li>
+                    </ul>
+            </li>
 
-                <li>
-                    <p>How to set up adblock on your favorite browser.</p>
-                        <ul>
-                            <li> <%= link_to "Adding adblock", "/adding_adblock_chrome" %> Chrome</li>
-                        </ul>
-                </li>
-            </ul>
+            <li>
+                <p>How to set up adblock on your favorite browser.</p>
+                    <ul>
+                        <li> <%= link_to "Adding adblock", "/adding_adblock_chrome" %> Chrome</li>
+                        <li> <%= link_to "Adding adblock", "/adding_adblock_firefox" %> Firefox</li>
+                        <li> <%= link_to "Adding adblock", "/adding_adblock_edge" %> Edge</li>
+                    </ul>
+            </li>
+        </ul>
+
+        <h2>Game specific settings</h2>
+        <ul>
+            <li>
+                Apex
+            </li>
+        </ul>
+
     </div>
 
     <div class="rsidemenu-flexbox">
