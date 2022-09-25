@@ -8,4 +8,7 @@ Rails.application.routes.draw do
   get "/adding_adblock_firefox", to: "browsers#adding_adblock_firefox"
   get "/adding_adblock_edge", to: "browsers#adding_adblock_edge"
   get "/adblock_chrome_alt", to: "browsers#adblock_chrome_alt"
+  get "/apex_graphicsettings", to: "games#apex_graphicsettings"
+  get "/fortnite_graphicsettings", to: "games#fortnite_graphicsettings"
+  get "/warzone_graphicsettings", to: "games#warzone_graphicsettings"
 end

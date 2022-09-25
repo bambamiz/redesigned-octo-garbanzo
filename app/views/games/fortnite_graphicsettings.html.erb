@@ -1,0 +1,130 @@
+<% content_for :title do  %>
+     | Scuffed Guides
+<%end%>
+
+<%= render "header"%>
+
+<div class="flexbox-content">
+    <div class="lsidemenu-flexbox">
+            <ul id="leftnavmenu">
+                <li>block that has links</li>
+                <li>home link</li>
+                <li>link link link</li>
+                <li>link link link</li>
+            </ul>
+    </div>
+
+    <div class="flexbox-item">
+
+
+        <h2>Apex graphic settings</h2>
+        <p>On this page I reference my settings. By no means do I claim my settings are the most optimal.</p>
+        
+        <div class="row-dotted-line"></div>
+        
+        <h3>1. Video settings</h3>
+        
+        <ul>
+            <li>Display mode: I always recommend playing in fullscreen. Other modes can add input lag.</li>
+            <li>Aspect ratio: Most games automatically set the aspect ratio to match your monitor. leave it set to auto unless you're getting black bars. 
+            If you are getting black bars you'll want find out your monitors aspect ratio by looking up the model.</li>
+            <li>Resolution: This section should be set to you're monitors resolution by default. 
+            If it's not find out you're monitors resolution and set it.</li>
+            <li>FOV: Represents the visible area, the higher you set it the more of the surrounding area you'll see. Set it to you're liking.</li>
+            <li>Nvidia reflex: If your sysemt supports it I recommend turning it on.</li>
+            <li>Texture streaming budget: Set this based off your gpus memory size. My gpu is 8gbs so I set it to 6gb</li>
+        </ul>
+
+        <div class="img-flexbox">
+            <%= image_tag "apexsettings1", class: "flexbox-ite"%>
+        </div>
+
+        <h3>1. continued</h3>
+        <div class="img-flexbox">
+            <%= image_tag "apexsettings2", class: "flexbox-ite"%>
+        </div>
+        <p><strong>note: </strong>Don't forget to hit apply before moving on.</p>
+
+        <div class="row-dotted-line"></div>
+
+        <h3>2. On screen display</h3>
+
+        <ul>
+            <li><strong>Optional: </strong>I included this section incase you want to be able to view your fps and network stats. 
+            In the picture below, I outlined in red how the onscreen statistics look</li>
+        </ul>
+
+        <div class="img-flexbox">
+            <%= image_tag "apexsettings6", class: "flexbox-ite"%>
+        </div>
+
+        <h3>2. continued</h3>
+        <ul>
+            <li>In settings under the gameplay tab, you'll see an option that says Performance Disaplay turn it on.</li>
+        </ul>
+
+        <div class="img-flexbox">
+            <%= image_tag "apexsettings3", class: "flexbox-ite"%>
+        </div>
+
+        <p><strong>note: </strong>Again, hit apply before moving on. 
+        By this point you may have gotten a notification stating that you need to restart the game for settings to take place, so go ahead and do that.</p>
+
+        <div class="row-dotted-line"></div>
+
+        <h3>3. Setting your fps</h3>
+
+        <ul>
+            <li>Apex locks the framerate to match your monitors refresh rate. In the steps below I'll show how to set a custom limit.</li>
+            <li>In your Steam library go to Apex, right click it and go to properties.</li>
+        </ul>
+
+        <div class="img-flexbox">
+            <%= image_tag "apexsettings4", class: "flexbox-ite"%>
+        </div>
+
+        <h3>3. Continued</h3>
+
+        <ul>
+            <li>You will now be on a new window that looks like the one in the picture bellow. Under launch options you'll type <span class="textbox">+fps_max</span> followed by the frame rate of your liking. 
+            I lock it at 154 out of habbit.</li>
+            <li>When you're done simply close the window by clicking the X on top right.</li>
+        </ul>
+
+        <div class="img-flexbox">
+            <%= image_tag "apexsettings5", class: "flexbox-ite"%>
+        </div>
+
+        <div class="row-dotted-line"></div>
+
+        <p>There you have it, that is how I do my settings.</p>
+
+        <h4>Summary</h4>
+
+        <p>Settings are preference, usually when selecting your settings you are choosing to prioritize graphics quality or performance.</p>
+        <p>Personally I tend to play on low setting targeting at least 144fps, therefore my settings are performance based.</p>
+
+        <p>
+            Relative information.
+            <ul>
+                <li>Monitor: Asus VG248QE</li>
+                <li>CPU: Ryzen 3600</li>
+                <li>GPU: 3050</li>
+                <li>RAM: 16gb (2x8gb) 3200</li>
+            </ul>
+        </p>
+
+    </div>
+
+    <div class="rsidemenu-flexbox">
+        <p>block that has links<br>
+        home link<br>
+        link link link<br>
+        link link link<br>
+    </div>
+
+</div>
+
+<div class="footer">
+    <p>missing</p>
+</div>

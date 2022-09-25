@@ -104,6 +104,17 @@ img   {
     height: auto;
 }
 
+li {
+    padding-bottom: 4px;
+}
+
+.textbox {
+    background-color: lightgray;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-family: monospace;
+    white-space: pre;
+}
 
 /* navmenu css*/
 .topnav {
