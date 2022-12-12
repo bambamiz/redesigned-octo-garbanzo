@@ -1,0 +1,2 @@
+module AutostartHelper
+end

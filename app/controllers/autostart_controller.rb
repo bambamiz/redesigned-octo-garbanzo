@@ -1,0 +1,2 @@
+class AutostartController < ApplicationController
+end

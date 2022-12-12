@@ -1,0 +1,79 @@
+<% content_for :title do  %>
+     | Scuffed Guides
+<%end%>
+
+<%= render "header"%>
+
+<div class="flexbox-content">
+    <div class="lsidemenu-flexbox">
+            <ul id="leftnavmenu">
+                <li>block that has links</li>
+                <li>home link</li>
+                <li>link link link</li>
+                <li>link link link</li>
+            </ul>
+    </div>
+
+    <div class="flexbox-item">
+
+
+        <h2>Disabling Autostart on Epic.</h2>
+        <p>In this guide I'm gonna go over how to stop Epic from running on start up.</p>
+        <p>At the bottom of the page there is a short explanation on what it is and why you should disable it.</p>
+        <div class="row-dotted-line"></div>
+
+        <h3>1. Get to your settings</h3>
+        
+        <div class="ul-box">
+            <ul>
+                <li>Click on your profile icon to pull up the menu, like in the image below.</li>
+                <li>On the menu you'll see an option for settings, click it to get to the settings menu.</li>
+            </ul>
+        </div>
+
+        <div class="img-flexbox">
+            <%= image_tag "epicsettings1", class: "flexbox-ite"%>
+        </div>
+
+        <div class="row-dotted-line"></div>
+
+        <h3>2. Disabling launch on startup.</h3>
+        <ul>
+            <li>In the settings menu uncheck the box that says "Run When My Computer Starts"</li>
+        </ul>
+
+        <div class="img-flexbox">
+            <%= image_tag "epicsettings2.png", class: "flexbox-ite"%>
+        </div>
+
+        <div class="row-dotted-line"></div>
+
+        <p>
+            You're all done, Epic will no longer start automatically.
+        </p>
+
+        <h4>Summary</h4>
+        <p>
+            Autostart means that the application will run when you power on your pc. I recommend turning it off because it will use rescources you would use elsewhere and it can interrupt gamesplay.
+        </p>
+
+        <p>
+            My settings and relative information.
+            <ul>
+                <li>I turn autostart off.</li>
+            </ul>
+        </p>
+
+    </div>
+
+    <div class="rsidemenu-flexbox">
+        <p>block that has links<br>
+        home link<br>
+        link link link<br>
+        link link link<br>
+    </div>
+
+</div>
+
+
+<%= render "footer"%>
